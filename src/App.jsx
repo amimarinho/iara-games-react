@@ -10,7 +10,9 @@ function App() {
 
   useEffect(() => {
     const getUsers = async () => {
-      const request = await fetch("http://localhost:3000/users");
+      const request = await fetch(
+        "https://iara-games-react/.netlify/functions/users"
+      );
       const response = await request.json();
 
       setUsers(response);
