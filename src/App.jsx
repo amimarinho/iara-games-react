@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const getUsers = async () => {
       const request = await fetch(
-        "https://iara-games-react/.netlify/functions/users"
+        "https://iara-games-react.netlify.app/.netlify/functions/users"
       );
       const response = await request.json();
 
