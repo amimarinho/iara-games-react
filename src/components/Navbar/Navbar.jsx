@@ -49,7 +49,7 @@ function Navbar() {
           </ul>
 
           <a href="./login.html" className="btn-menu decorated-btn btn-active">
-            Criar conta
+            Login
           </a>
         </div>
       </div>
